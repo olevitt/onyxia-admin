@@ -7,7 +7,12 @@ import (
 
 func addHelmController() {
 	// Routes
-	e.GET("/public/helm", getPodsCount)
+	e.GET("/public/helm", getReleases)
+}
+
+func getReleases(c echo.Context) error {
+	doGetReleases()
+	return c.JSON(http.StatusOK, &Result{Result: 1})
 }
 
 // Handler
