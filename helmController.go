@@ -2,7 +2,6 @@ package main
 
 import (
 	"net/http"
-	"fmt"
 	"github.com/labstack/echo/v4"
 )
 
