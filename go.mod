@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/baba2k/echo-keycloak v0.1.0
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/labstack/echo/v4 v4.9.1
 	github.com/spf13/viper v1.14.0
 	k8s.io/apimachinery v0.25.4
@@ -14,6 +14,7 @@ require (
 require (
 	github.com/Nerzal/gocloak/v5 v5.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/emicklei/go-restful/v3 v3.10.1 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
